@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  text-decoration: none;
+  @apply .text-black;
+}
+
+.outline-0 {
+  outline: 0;
+}
+
+.lh-fix {
+  line-height: 0.75;
+}
+  
